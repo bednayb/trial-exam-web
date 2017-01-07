@@ -1,4 +1,8 @@
 'use strict';
 
-// test the git
-console.log("hello aniko");
+
+let decodingButton = document.querySelector('#decoding-btn');
+
+decodingButton.addEventListener("click", function(){
+    console.log("hello aniko again");
+});
